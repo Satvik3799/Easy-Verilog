@@ -1,0 +1,6 @@
+module comparison
+#parameter (integer w)
+(A, B, A_lt_B, A_eq_B, A_gt_B);
+
+input [w-1:0] A,B;
+output A_lt_B, A_eq_B, A_gt_B;

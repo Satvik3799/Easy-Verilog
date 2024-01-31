@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_primitive_gates_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_primitive_gates" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.000 ns"></ZoomEndTime>
+      <Cursor1Time time="141.176 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/tb_primitive_gates/A">
+      <obj_property name="ElementShortName">A</obj_property>
+      <obj_property name="ObjectShortName">A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/B">
+      <obj_property name="ElementShortName">B</obj_property>
+      <obj_property name="ObjectShortName">B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_OR">
+      <obj_property name="ElementShortName">Y_OR</obj_property>
+      <obj_property name="ObjectShortName">Y_OR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_NOR">
+      <obj_property name="ElementShortName">Y_NOR</obj_property>
+      <obj_property name="ObjectShortName">Y_NOR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_AND">
+      <obj_property name="ElementShortName">Y_AND</obj_property>
+      <obj_property name="ObjectShortName">Y_AND</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_NAND">
+      <obj_property name="ElementShortName">Y_NAND</obj_property>
+      <obj_property name="ObjectShortName">Y_NAND</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_NOT">
+      <obj_property name="ElementShortName">Y_NOT</obj_property>
+      <obj_property name="ObjectShortName">Y_NOT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/Y_XOR">
+      <obj_property name="ElementShortName">Y_XOR</obj_property>
+      <obj_property name="ObjectShortName">Y_XOR</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_primitive_gates/count">
+      <obj_property name="ElementShortName">count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">count[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_primitive_gates/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+</wave_config>

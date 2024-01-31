@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/NAND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/NOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/NOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/GitHub/Verilog_practice/Primitive_Gates/Primitive_Gates/Primitive_Gates.srcs/sources_1/imports/Primitive_Gates/tb_primitive_gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_primitive_gates

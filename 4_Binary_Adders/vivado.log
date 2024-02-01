@@ -1,0 +1,461 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:21 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Feb  1 11:58:25 2024
+# Process ID: 9718
+# Current directory: /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado
+# Command line: vivado
+# Log file: /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/vivado.log
+# Journal file: /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.1/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty/C.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:basys3:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/basys3/C.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-15t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-15t/B.0/board.xml as part xc7a15tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-35t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-35t/B.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-100t/D.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-100t/D.0/1.3/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-50t:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-50t/D.0/1.0/board.xml as part xc7a50ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-50t:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-50t/D.0/1.3/board.xml as part xc7a50ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys4/B.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4_ddr:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys4_ddr/C.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys_video:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys_video/A.0/1.1/board.xml as part xc7a200tsbg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys_video:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys_video/A.0/1.2/board.xml as part xc7a200tsbg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.2/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.3/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.1/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty/C.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:basys3:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/basys3/C.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-15t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-15t/B.0/board.xml as part xc7a15tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-35t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-35t/B.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-100t/D.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-100t/D.0/1.3/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-50t:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-50t/D.0/1.0/board.xml as part xc7a50ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-50t:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-50t/D.0/1.3/board.xml as part xc7a50ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys4/B.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4_ddr:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys4_ddr/C.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys_video:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys_video/A.0/1.1/board.xml as part xc7a200tsbg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys_video:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys_video/A.0/1.2/board.xml as part xc7a200tsbg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.2/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:usb104-a7:part0:1.3 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/usb104-a7/B/1.3/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-100:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-100/E.0/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-a7-35:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-a7-35/E.0/1.1/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/arty/C.0/board.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:basys3:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/basys3/C.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-15t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-15t/B.0/board.xml as part xc7a15tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod_a7-35t:part0:1.2 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cmod_a7-35t/B.0/board.xml as part xc7a35tcpg236-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.0 available at /home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/boards/board_files/nexys-a7-100t/D.0/1.0/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+create_project {Binary Adders} {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders} -part xcvc1802-viva1596-1LHP-i-L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/satvik/Software_installs/Xilinx/Vivado/2020.3/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+file mkdir /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new
+file mkdir /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new
+file mkdir /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new
+file mkdir /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new
+file mkdir /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new
+file mkdir {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new}
+close [ open {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v} w ]
+add_files {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v}}
+close [ open {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v} w ]
+add_files {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v}}
+update_compile_order -fileset sources_1
+close [ open {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v} w ]
+add_files {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+ERROR: [VRFC 10-4982] syntax error near '.' [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:11]
+ERROR: [VRFC 10-4982] syntax error near '.' [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:12]
+ERROR: [VRFC 10-4982] syntax error near 'posedge' [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword posedge used in incorrect context [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+WARNING: [VRFC 10-2096] empty statement in always construct [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+WARNING: [VRFC 10-1771] potential always loop found [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2969] 'clk' is not a type [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2969] 'count' is not a type [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:16]
+ERROR: [VRFC 10-2865] module 'tb_binary_adder' ignored due to previous errors [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:2]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+ERROR: [VRFC 10-4982] syntax error near 'posedge' [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword posedge used in incorrect context [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+WARNING: [VRFC 10-2096] empty statement in always construct [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+WARNING: [VRFC 10-1771] potential always loop found [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2969] 'clk' is not a type [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:14]
+ERROR: [VRFC 10-2969] 'count' is not a type [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:16]
+ERROR: [VRFC 10-2865] module 'tb_binary_adder' ignored due to previous errors [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:2]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/satvik/Software_installs/Xilinx/Vivado/2020.3/bin/unwrapped/lnx64.o/xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.tb_binary_adder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_binary_adder_behav
+
+****** Webtalk v2020.3 (64-bit)
+  **** SW Build 3173277 on Wed Apr  7 05:07:21 MDT 2021
+  **** IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source /media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary -notrace
+couldn't read file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary": illegal operation on a directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb  1 12:18:24 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_binary_adder_behav -key {Behavioral:sim_1:Functional:tb_binary_adder} -tclbatch {tb_binary_adder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+source tb_binary_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_binary_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8356.957 ; gain = 188.863 ; free physical = 7429 ; free virtual = 14093
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/satvik/Software_installs/Xilinx/Vivado/2020.3/bin/unwrapped/lnx64.o/xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.tb_binary_adder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_binary_adder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_binary_adder_behav -key {Behavioral:sim_1:Functional:tb_binary_adder} -tclbatch {tb_binary_adder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+source tb_binary_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_binary_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}}
+set_property xsim.view {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/satvik/Software_installs/Xilinx/Vivado/2020.3/bin/unwrapped/lnx64.o/xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'A_in' [/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.tb_binary_adder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_binary_adder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_binary_adder_behav -key {Behavioral:sim_1:Functional:tb_binary_adder} -tclbatch {tb_binary_adder.tcl} -view {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+open_wave_config {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}
+source tb_binary_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_binary_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_binary_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_binary_adder_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.srcs/sources_1/new/tb_binary_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_binary_adder
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/satvik/Software_installs/Xilinx/Vivado/2020.3/bin/unwrapped/lnx64.o/xelab -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.tb_binary_adder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_binary_adder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/Binary Adders.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_binary_adder_behav -key {Behavioral:sim_1:Functional:tb_binary_adder} -tclbatch {tb_binary_adder.tcl} -view {{/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+open_wave_config {/media/satvik/Study/M_tech/IITB/ARM_SoC_Design_Workshop/Lab_2/Vivado/Binary Adders/tb_binary_adder_behav.wcfg}
+WARNING: Simulation object /tb_binary_adder/w was not found in the design.
+source tb_binary_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_binary_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  1 12:33:13 2024...

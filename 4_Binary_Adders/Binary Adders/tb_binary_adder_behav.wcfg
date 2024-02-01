@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_binary_adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_binary_adder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="25.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="104.351 ns"></ZoomEndTime>
+      <Cursor1Time time="65.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/tb_binary_adder/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/w">
+      <obj_property name="ElementShortName">w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/A_in">
+      <obj_property name="ElementShortName">A_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">A_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/B_in">
+      <obj_property name="ElementShortName">B_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">B_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/C_in">
+      <obj_property name="ElementShortName">C_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">C_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/sum_HA">
+      <obj_property name="ElementShortName">sum_HA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_HA[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_binary_adder/cy_HA">
+      <obj_property name="ElementShortName">cy_HA</obj_property>
+      <obj_property name="ObjectShortName">cy_HA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/sum_FA">
+      <obj_property name="ElementShortName">sum_FA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_FA[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_binary_adder/cy_FA">
+      <obj_property name="ElementShortName">cy_FA</obj_property>
+      <obj_property name="ObjectShortName">cy_FA</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_binary_adder/count">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8623007395182124572  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c55e586de0744ab98f810ca226f8e8df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_binary_adder_behav xil_defaultlib.tb_binary_adder xil_defaultlib.glbl" , 
+    buildDate : "Apr  7 2021" , 
+    buildTime : "05:23:02" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tb_binary_adder_behav/xsimk\"   \"xsim.dir/tb_binary_adder_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/tb_binary_adder_behav/obj/xsim_1.lnx64.o\" -L\"/home/satvik/Software_installs/Xilinx/Vivado/2020.3/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
